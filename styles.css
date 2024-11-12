@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -8,6 +13,7 @@ body {
     display: flex;
     height: 100vh;
     align-items: center;
+    font-family: Figtree, sans-serif;
 }
 
 div {
@@ -22,4 +28,13 @@ div {
 header img {
     max-width: 100%;
     border-radius: 1rem;
+    margin-bottom: 1.75rem;
+}
+
+span {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size: 14px;
 }
