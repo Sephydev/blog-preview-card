@@ -23,6 +23,7 @@ div {
     width: 20rem;
     border: 1px solid hsl(0, 0%, 7%);
     border-radius: 1rem;
+    box-shadow: 9px 9px black;
 }
 
 header img {
