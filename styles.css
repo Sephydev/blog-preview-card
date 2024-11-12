@@ -31,10 +31,16 @@ header img {
     margin-bottom: 1.75rem;
 }
 
-span {
+.tag {
+    display: inline-block;
     background-color: hsl(47, 88%, 63%);
     font-weight: 800;
     padding: .5rem 1rem;
     border-radius: .5rem;
     font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.published {
+    font-size: 12px;
 }
