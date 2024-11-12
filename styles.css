@@ -58,5 +58,15 @@ h1 {
 }
 
 .greg {
-    width: 1.5rem;
+    width: 1.65rem;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-top: 1.25rem;
+    font-size: 12px;
+    font-weight: 800;
+}
+
